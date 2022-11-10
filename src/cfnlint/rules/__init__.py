@@ -486,6 +486,17 @@ class RulesCollection:
                                     resource_spec_property.get('Type'),
                                 )
                             )
+                    elif resource_spec_property.get('PrimitiveType') == 'Json':
+                        matches.extend(
+                            self.resource_property(
+                                filename,
+                                cfn,
+                                property_path,
+                                resource_property_value,
+                                resource_type,
+                                resource_spec_property.get('PrimitiveType'),
+                            )
+                        )
 
         return matches
 

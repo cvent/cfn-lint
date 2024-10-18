@@ -47,7 +47,7 @@ that could potentially be improved'),
         'jsonpatch',
         'jsonschema>=3.0,<5',
         'importlib_resources>=1.4,<4;python_version<"3.7"',
-        'networkx~=2.4',
+        'networkx~=2.8',
         'junit-xml~=1.9',
         'jschema_to_python~=1.2.3',
         'sarif-om~=1.0.4'
